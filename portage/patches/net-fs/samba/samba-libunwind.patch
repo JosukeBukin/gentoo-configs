@@ -1,0 +1,13 @@
+diff --git a/samba-4.15.5-r1.ebuild b/samba-4.15.5-r1.ebuild
+index 63161f7..8f4fc47 100644
+--- a/samba-4.15.5-r1.ebuild
++++ b/samba-4.15.5-r1.ebuild
+@@ -90,7 +90,7 @@ COMMON_DEPEND="
+ 			net-dns/bind-tools[gssapi]
+ 		)
+ 	")
+-	!alpha? ( !sparc? ( sys-libs/libunwind:= ) )
++	!alpha? ( !sparc? ( || ( sys-libs/libunwind:= sys-libs/llvm-libunwind ) ) )
+ 	acl? ( virtual/acl )
+ 	ceph? ( sys-cluster/ceph )
+ 	cluster? ( net-libs/rpcsvc-proto )

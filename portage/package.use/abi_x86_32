@@ -1,0 +1,12 @@
+x11-libs/gdk-pixbuf abi_x86_32
+x11-libs/libva abi_x86_32
+x11-libs/libvdpau abi_x86_32
+media-video/pipewire abi_x86_32
+x11-libs/gtk+ abi_x86_32
+x11-libs/gtk+:2 abi_x86_32
+net-misc/curl abi_x86_32
+media-libs/openal abi_x86_32
+x11-libs/libXinerama abi_x86_32
+media-libs/mesa abi_x86_32
+
+sys-devel/clang abi_x86: 64 32

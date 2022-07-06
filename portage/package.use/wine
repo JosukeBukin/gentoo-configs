@@ -1,0 +1,3 @@
+app-emulation/wine-vanilla vulkan faudio opencl opengl vkd3d fontconfig -unwind sdl
+app-emulation/wine-staging vulkan faudio opencl opengl vkd3d fontconfig -unwind sdl
+
